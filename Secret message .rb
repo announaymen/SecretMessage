@@ -12,10 +12,8 @@ def decrypt(text, key)
   encrypt_decrypt(text, key, encrypt: false)
 end
 
-puts " enter the decryption key:"
+puts "Enter the decryption key:"
 key = gets.chomp
-
-encrypted_message = "[ow*rn!s{ rueljuws\"jev;&c ydrvun\"lkne)s{dy)v pmuy,\"d up|g cv rojgsvuuluodlg#a|!jkaornm/"
-decrypted_message=  decrypt(encrypted_message, key)
-
+encrypted_message = "[ow#arn n\"rcues} hko;\"py uowk\"fqu yxu!ou ydrmnr!zjap#ruky(y\"gnrw jne&cs\"lndnsuxwcvlbln by\"dkdmowd"
+decrypted_message = decrypt(encrypted_message, key)
 puts "Decrypted Message: #{decrypted_message}"
